@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Waves Maze — Echo Navigator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<div class="stage">
+<div class="header">
+<div class="title">Waves Maze — Echo Navigator</div>
+<div class="info small">Memorize the maze during the reveal. Walls will hide when you move — touching one causes a red wave reset.</div>
+</div>
+
+
+<div class="hud">
+<div class="controls">
+<button class="btn" id="btn-reveal">Reveal</button>
+<button class="btn" id="btn-peek">Peek (1)</button>
+<button class="btn" id="btn-reset">New Maze</button>
+</div>
+<div class="score small">Score: <span id="score">0</span></div>
+<div class="level small">Wave: <span id="level">1</span></div>
+</div>
+
+
+<div class="grid-wrap" id="grid-wrap">
+<div class="wave-bg"></div>
+<div class="grid show-walls" id="grid"></div>
+<div class="overlay" id="overlay" style="display:none"><div class="msg" id="msg"></div></div>
+</div>
+
+
+<div class="footer">
+<div class="legend"><div class="dot"></div><div class="small">Goal</div></div>
+<div class="notes">Use arrow keys, WASD, or swipe to move. The reveal will disappear after you move once. Touching a wall causes a red shockwave.</div>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
