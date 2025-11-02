@@ -4,7 +4,12 @@
 Your goal is to navigate from start to goal — but here’s the twist: the maze walls disappear once you start moving.  
 Touching a wall triggers a red “shockwave” and resets the maze. How far can you go?
 
----
+<p align="left">
+  <a href="https://joise-s-arakkal.github.io/Waves-Maze/" target="_blank">
+    <img src="https://img.shields.io/badge/Play%20Demo-Waves%20Maze-6EE7FF?style=for-the-badge&logo=github&logoColor=white&labelColor=07223A" alt="Play Waves Maze Demo">
+  </a>
+</p>
+
 
 ## 🧩 Gameplay Overview
 
